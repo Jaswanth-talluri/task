@@ -18,7 +18,7 @@
     background-color: rgba(255, 255, 255, 0.251);
     
 }
-.navbar{
+.bar{
     display: flex;
     justify-content:space-between;
     width: 450px;
@@ -27,7 +27,7 @@
     position: absolute;
     opacity: 0;
 }
-.navbar a{
+.bar a{
         color: white;
         text-decoration: none;
         font-weight: 500;
@@ -35,7 +35,7 @@
         display: inline;
         position: relative;
 }
-.navbar a::after{
+.bar a::after{
     content:'';
     width:0;
     border: 0px;
@@ -47,7 +47,7 @@
     bottom:-6px;
     transition:0.2s ease-in;
 }
-.navbar a:hover::after{
+.bar a:hover::after{
     height: px;
     width:100%;
 }
