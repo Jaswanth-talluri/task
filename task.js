@@ -4,5 +4,5 @@ document.querySelector('#bars-btn').onclick = () =>{
     console.log("hello");
 }
 window.onscroll = () =>{
-    navbar.classList.toggle('navbar');
+    navbar.classList.remove('navbar');
 }
