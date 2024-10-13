@@ -1,0 +1,72 @@
+.book{
+    flex-direction: column;
+}
+*{
+    /* background-color: black; */
+}
+.book{
+
+    .bookinf{
+        .input{
+            width:600px;
+            
+        }
+    }
+    .bookimg{
+        display: flex;
+        position:relative;
+        top:-80px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.logsin{
+    display: none;
+}
+.active{
+    width: 200px;
+}
+.about{
+    position: relative;
+    top:140px;
+}
+.info{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bg{
+    width: 100%;
+    height: 760px;
+
+}
+.head{
+    justify-content: center;
+    padding-top: 20px;
+}
+.abouticon {
+    display: none;
+}
+.offermatter{
+    width: 80%;
+}
+.contacttype{
+    justify-content: center;
+    align-items: center ;
+    /* flex-direction: column; */
+    gap:50px
+}
+.rewicon{
+    width: 200px;
+}
+.abouticon{
+    width: 200px;
+}
+.infoele{
+    display: flex;
+    /* justify-content: center; */
+    padding-bottom: 5px;
+}
+.bookinf{
+    padding-left: 10px;
+}
